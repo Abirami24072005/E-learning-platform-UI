@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<!-- Declares HTML5 document -->
+
+<html lang="en">
+<!-- Root HTML element, language set to English -->
+
+<head>
+    <meta charset="UTF-8">
+    <!-- Supports all characters (UTF-8 encoding) -->
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Makes website responsive on mobile devices -->
+
+    <title>course</title>
+    <!-- Page title shown in browser tab -->
+
+    <!-- Font Awesome CDN for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
+    <!-- Linking custom CSS file -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+<!-- Page body starts -->
+
+<div class="container">
+<!-- Main wrapper container -->
+
+<header>
+<!-- Header section -->
+
+<a href="#" class="logo">Smart<span>Study</span></a>
+<!-- Website logo / brand name -->
+
+<div id="menu" class="fas fa-bars"></div>
+<!-- Hamburger menu icon for mobile view -->
+
+<nav class="navbar">
+<!-- Navigation menu -->
+
+    <a href="home.html">home</a>
+    <a href="course.html">course</a>
+    <a href="teacher.html">teacher</a>
+    <a href="price.html">price</a>
+    <a href="review.html">review</a>
+    <a href="contact.html">contact</a>
+
+</nav>
+</header>
+
+<!-- ================= COURSE VIDEO SECTION ================= -->
+
+<section class="course-video">
+<!-- Section for course preview video -->
+
+    <h2 class="heading">Course Preview</h2>
+    <!-- Section heading -->
+
+    <div class="video-container">
+    <!-- Wrapper to control iframe size -->
+
+        <iframe 
+            src="https://www.youtube.com/embed/nUGhepu5Dl0"
+            <!-- YouTube video link -->
+
+            title="Course Video"
+            <!-- Video title for accessibility -->
+
+            frameborder="0"
+            <!-- Removes iframe border -->
+
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            <!-- Allows video features -->
+
+            allowfullscreen>
+            <!-- Enables fullscreen mode -->
+        </iframe>
+
+    </div>
+</section>
+
+<!-- ================= PROGRESS SECTION ================= -->
+
+<section class="progress">
+<!-- User progress tracking section -->
+
+    <h2 class="heading">Your Progress</h2>
+    <!-- Section heading -->
+
+    <div class="progress-card">
+    <!-- Card container -->
+
+        <div class="progress-bar">
+        <!-- Progress bar background -->
+
+            <span style="width: 60%;"></span>
+            <!-- Filled progress bar (60%) -->
+
+        </div>
+
+        <p class="progress-text">60% Completed</p>
+        <!-- Progress text -->
+
+        <div class="lesson-buttons">
+        <!-- Module buttons container -->
+
+            <button class="active">Module 1</button>
+            <!-- Completed module -->
+
+            <button class="active">Module 2</button>
+            <!-- Completed module -->
+
+            <button>Module 3</button>
+            <!-- Pending module -->
+
+        </div>
+    </div>
+</section>
+
+<!-- ================= POPULAR COURSES TITLE ================= -->
+
+<h1 class="heading">popular courses</h1>
+<!-- Heading for course list -->
+
+<!-- ================= COURSE SECTION ================= -->
+
+<section class="course">
+<!-- Course cards section -->
+
+    <div class="box">
+    <!-- Single course card -->
+
+        <span class="amount">$59.90</span>
+        <!-- Course price -->
+
+        <img src="course-1.svg" alt="">
+        <!-- Course image -->
+
+        <div class="stars">
+        <!-- Rating stars -->
+
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+
+        </div>
+
+        <h3>front end devlopment</h3>
+        <!-- Course title -->
+
+        <p>
+        <!-- Course description -->
+        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+        </p>
+
+        <a href="#" class="btn">learn more</a>
+        <!-- Button to learn more -->
+
+        <div class="icons">
+        <!-- Course info icons -->
+
+            <p><i class="far fa-clock"></i> 2 hours</p>
+            <!-- Course duration -->
+
+            <p><i class="far fa-calendar"></i> 6 months</p>
+            <!-- Course validity -->
+
+            <p><i class="fas fa-book"></i> 12 modules</p>
+            <!-- Number of modules -->
+
+        </div>
+    </div>
+
+    <!-- Remaining course boxes repeat same structure -->
+</section>
+
+<!-- ================= FOOTER SECTION ================= -->
+
+<section class="footer">
+<!-- Footer section -->
+
+    <div class="box-container">
+    <!-- Footer content wrapper -->
+
+        <div class="box">
+            <h3>about us</h3>
+            <p>Website description</p>
+        </div>
+
+        <div class="box">
+            <h3>quick links</h3>
+            <a href="#">home</a>
+            <a href="#">course</a>
+            <a href="#">teacher</a>
+            <a href="#">price</a>
+            <a href="#">review</a>
+            <a href="#">contact</a>
+        </div>
+
+        <div class="box">
+            <h3>follow us</h3>
+            <a href="#">facebook</a>
+            <a href="#">twitter</a>
+            <a href="#">instagram</a>
+            <a href="#">linkedin</a>
+        </div>
+
+        <div class="box">
+            <h3>contact us</h3>
+            <p><i class="fas fa-phone"></i> +123-456-7890</p>
+            <p><i class="fas fa-envelope"></i> studysmart@gmail.com</p>
+            <p><i class="fas fa-map-marker-alt"></i> mumbai, india</p>
+        </div>
+
+    </div>
+
+    <div class="credit">
+    <!-- Footer credit -->
+    created by <span>Abirami</span> | all rights reserved
+    </div>
+</section>
+
+</div>
+<!-- End container -->
+
+<script src="script.js"></script>
+<!-- External JavaScript file -->
+
+</body>
+</html>
