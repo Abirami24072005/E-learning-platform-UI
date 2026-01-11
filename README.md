@@ -14,7 +14,7 @@
 
 Project Description: E-Learning platform UI
 
-#Purpose & Objective
+#Purpose & Objective:
 
 The platform is designed as a fully functional online learning environment to provide an engaging, structured, and intuitive experience for users.
 
@@ -24,7 +24,7 @@ Focuses on ease of navigation, accessibility, and responsiveness, ensuring seaml
 
 Designed to support institutions, independent educators, and learners seeking a professional online educational experience.
 
-#Homepage Features & Navigation
+#Homepage Features & Navigation:
 
 The homepage is structured to offer a welcoming and organized layout, providing an overview of the platform’s features and courses.
 
@@ -36,7 +36,7 @@ Homepage highlights featured courses and instructors, allowing learners to quick
 
 Uses modern design elements, such as color contrasts, shadows, and gradients, to enhance visual appeal while maintaining clarity.
 
-#Course Section
+#Course Section:
 
 Each course is presented in a modular format with distinct course boxes.
 
@@ -54,7 +54,7 @@ Helps build trust and credibility between learners and educators.
 
 Allows learners to make informed decisions by reviewing instructor experience and areas of expertise.
 
-#Pricing Plans
+#Pricing Plans:
 
 Multiple pricing plans for courses are clearly displayed with comparative features and benefits.
 
@@ -70,7 +70,7 @@ Enhances platform credibility and builds a sense of community among learners.
 
 Learners can gauge the quality and effectiveness of courses and instructors through previous experiences.
 
-#Contact Section
+#Contact Section:
 
 Structured contact form for inquiries, feedback, or support requests, including fields for name, email, subject, and message.
 
@@ -78,7 +78,7 @@ Simplifies communication with administrators, ensuring timely responses.
 
 Incorporates visual elements and layout design to make the page more engaging and user-friendly.
 
-#Technical Implementation
+#Technical Implementation:
 
 Developed using HTML, CSS, and JavaScript to create a dynamic, interactive, and responsive user interface.
 
@@ -88,7 +88,7 @@ JavaScript is used for interactive elements, such as menu toggles, responsive ad
 
 Modular code structure allows easy scalability, enabling new courses, instructors, or sections to be added without major code changes.
 
-#Overall Impact & Value
+#Overall Impact & Value:
 
 Provides a robust, organized, and professional learning environment for students and educators.
 
