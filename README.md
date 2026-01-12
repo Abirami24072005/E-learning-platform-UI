@@ -112,4 +112,4 @@ Enhances the learning experience by providing a professional and engaging platfo
 
 <img width="1920" height="1080" alt="Image" src="https://github.com/user-attachments/assets/3ad05a44-a3b9-4bc2-bf45-e24a6914db7e" />
 
-<img width="1920" height="1080" alt="Image" src="https://github.com/user-attachments/assets/ec4bf0ac-8212-4b4a-8a7d-ec80e428b7ca" />
+<img width="1920" height="1080" alt="Image" src="https://github.com/user-attachments/assets/39e0791b-aede-447d-aab3-e204b3e4ebe9" />
